@@ -1,19 +1,17 @@
 # 读写ini配置文件
 
 ```c++
-#include <QSettings>
-/* 读取配置信息函数：*/
-ParameterInit()
+/* 保存为.ini文件 */
+void DAC::saveStyle(QString styleName)
 {
-    /*  读取文件名字 */
+    /*  文件名字 Style.ini */
     QSettings settings("Style.ini", QSettings::IniFormat);
-    settings.beginGroup("Skins");
-    settings.setValue("Style", styleName);
+    settings.beginGroup("Skins"); // 组
+    settings.setValue("Style", styleName);// 值
     settings.endGroup();
 }
-
-/* 修改配置信息函数：*/
-ParameterSave(QString Type, QString p)
+/* 加载.ini文件 */
+QString DAC::loadStyle()
 {
     QSettings settings("Style.ini", QSettings::IniFormat);
     settings.beginGroup("Skins");
