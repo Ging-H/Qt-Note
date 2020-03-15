@@ -26,6 +26,8 @@
 
 [遍历n个同类Widget](循环遍历n个Widget.md)
 
+[遍历ui QLineEdit并保存数据](遍历ui QLineEdit并保存数据.md)
+
 [利用规则表达式删除字符串空格](利用规则表达式删除空格.md)
 
 [添加动态库](添加动态库.md)
