@@ -38,4 +38,4 @@
 
 [时间相减](时间相减.md)
 
-[遍历ui->QLineEdit并保存数据](遍历ui->QLineEdit并保存数据.md)
+[遍历ui->QLineEdit并保存数据](遍历ui-QLineEdit并保存数据.md)
