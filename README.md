@@ -43,3 +43,5 @@
 [正则表达式字符匹配](正则表达式字符匹配.md)
 
 [QPushButton右键弹出菜单](QPushButton右键弹出菜单.md)
+
+[Qt Widget触发鼠标悬停事件](Qt Widget触发鼠标悬停事件.md)
