@@ -45,3 +45,7 @@
 [QPushButton右键弹出菜单](QPushButton右键弹出菜单.md)
 
 [Qt Widget触发鼠标悬停事件](Widget触发鼠标悬停事件.md)
+
+[文件映射](文件映射.md)
+
+[QTextBrowser显示文件内容](QTextBrowser显示文件内容.md)
