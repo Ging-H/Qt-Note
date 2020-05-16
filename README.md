@@ -49,3 +49,5 @@
 [文件映射](文件映射.md)
 
 [QTextBrowser显示文件内容](QTextBrowser显示文件内容.md)
+
+[使用QtDesigner创建的UI文件](使用QtDesigner创建的UI文件.md)
