@@ -51,3 +51,5 @@
 [QTextBrowser显示文件内容](QTextBrowser显示文件内容.md)
 
 [使用QtDesigner创建的UI文件](使用QtDesigner创建的UI文件.md)
+
+[QStringList排序](QStringList排序.md)
