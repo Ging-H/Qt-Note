@@ -8,11 +8,7 @@
     btnMenu->addAction(ui->actionRename); // ui->actionRename 在ui当中已经链接槽函数
     ui->btnSend->setContextMenuPolicy(Qt::CustomContextMenu);
     /* 右击触发请求菜单事件 */
-    connect(ui->btnSend, SIGNAL(customContextMenuRequested(const QPoint &)), this,                 SLOT(slots_showBtnRightClickMenu(const QPoint &)));
-    
-    /* 多个重复的按钮 */
-    connect(ui->btnSend_2, SIGNAL(customContextMenuRequested(const QPoint &)), this,               SLOT(slots_showBtnRightClickMenu(const QPoint &)));
-
+    connect(ui->btnSend, SIGNAL(customContextMenuRequested(const QPoint &)), this, SLOT(slots_showBtnRightClickMenu(const QPoint &)));
 }
 /* 右击事件 */
 void ModbusTool::slots_showBtnRightClickMenu(const QPoint &pos)
