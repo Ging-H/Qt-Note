@@ -53,3 +53,5 @@
 [使用QtDesigner创建的UI文件](使用QtDesigner创建的UI文件.md)
 
 [QStringList排序](QStringList排序.md)
+
+[自定义右键菜单](自定义右键菜单.md)
